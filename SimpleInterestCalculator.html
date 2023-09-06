@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Interest Calculator</title>
+</head>
+
+<body>
+    <header>
+        <h1>Simple Interest Calculator</h1>
+    </header>
+    <main>
+        <div>
+            <section>
+                <label for="value1">Principal(In $):</label>
+                        <input type="text" name="value1" id="num1">
+                        <label for="value2">Rate(In %):</label>
+                        <input type="text" name="value2" id="num2">
+                        <label for="value3">Time Period:</label>
+                        <input type="text" name="value3" id="num3">
+                       
+                        <label for="time">Period Type Selection:</label>
+                        <select id="tp" name="timeperiod">
+                            <option value="year">Year</option>
+                            <option value="month">Month</option>
+                          </select>
+                          
+                        <input type="button" value="Calculate" onclick="disp()">
+                       
+                       
+                       
+                        <label for="result">Principal Amount(In $):</label>
+            
+                        <input type="text" name="principalamount" id="result0" disabled>
+                        <label for="result">Total Amount(In $);</label>
+                        <input type="text" name="totalamount" id="result1" disabled>
+                        <label for="result">Total Interest(In $)</label>
+                        <input type="text" name="totalinterest" id="result2" disabled>
+
+                    </section>
+                </div>
+            </main>
+        </body>
+        <script src="script.js"></script>
+        </html>
+        
